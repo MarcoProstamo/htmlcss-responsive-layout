@@ -20,6 +20,18 @@ body {
   font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
+/* ! Layout */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
 /* # Utils */
 
 .container {
@@ -209,11 +221,11 @@ body {
   background-color: #7967a0;
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .upper-footer {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .page-footer .upper-footer address {
