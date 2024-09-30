@@ -183,6 +183,13 @@ body {
   color: #e62222;
 }
 
+/* # Banner Section */
+
+.banner-section {
+  margin-top: 2rem;
+  display: none;
+}
+
 /* # Presentation Section */
 
 .presentation-section {
@@ -299,10 +306,17 @@ body {
     width: 30%;
   }
 
+  .banner-section {
+    display: block;
+  }
+
   .lower-footer ul {
     flex-wrap: nowrap;
     justify-content: space-around;
     width: 70%;
     margin: 0 auto;
   }
+}
+
+@media screen and (min-width: 992px) {
 }
