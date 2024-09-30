@@ -128,3 +128,40 @@ body {
 .video-section .row span:last-child {
   margin-bottom: 3.5rem;
 }
+
+/* # Social Section */
+
+.social-section ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.social-section ul li {
+  background-color: white;
+  width: 3rem;
+  aspect-ratio: 1;
+  border-radius: 18px;
+  text-align: center;
+  line-height: 3rem;
+  box-shadow: 1px 1px 20px 1px #aaa;
+}
+
+.color-fb {
+  color: #1a77f2;
+}
+
+.color-x {
+  color: #009eff;
+}
+
+.color-insta {
+  color: #833ab4;
+}
+
+.color-pinterest-yt {
+  color: #e62222;
+}
