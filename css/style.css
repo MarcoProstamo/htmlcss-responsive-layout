@@ -189,7 +189,10 @@ body {
 }
 
 .color-insta {
-  color: #833ab4;
+  background: -webkit-linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .color-pinterest-yt {
