@@ -202,3 +202,33 @@ body {
 .presentation-section p strong {
   font-weight: 700;
 }
+
+/* # Footer */
+
+.page-footer {
+  background-color: #7967a0;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.upper-footer {
+  margin-bottom: 1rem;
+}
+
+.page-footer .upper-footer address {
+  font-style: normal;
+}
+
+.lower-footer ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.lower-footer li {
+  width: 20%;
+  list-style: none;
+  text-decoration: underline;
+}
